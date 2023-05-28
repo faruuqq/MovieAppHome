@@ -1,0 +1,295 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MovieAppHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MovieHomeViewController",
+        "printedName": "MovieHomeViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MovieAppHome@objc(cs)MovieHomeViewController(im)viewDidLoad",
+            "mangledName": "$s12MovieAppHome0aC14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "MovieAppHome",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MovieHomeViewController",
+                "printedName": "MovieAppHome.MovieHomeViewController",
+                "usr": "c:@M@MovieAppHome@objc(cs)MovieHomeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MovieAppHome@objc(cs)MovieHomeViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s12MovieAppHome0aC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MovieAppHome",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MovieAppHome.MovieHomeViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MovieHomeViewController",
+                    "printedName": "MovieAppHome.MovieHomeViewController",
+                    "usr": "c:@M@MovieAppHome@objc(cs)MovieHomeViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MovieAppHome@objc(cs)MovieHomeViewController(im)initWithCoder:",
+            "mangledName": "$s12MovieAppHome0aC14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MovieAppHome",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initialConfiguration",
+            "printedName": "initialConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MovieAppHome0aC14ViewControllerC20initialConfigurationyyF",
+            "mangledName": "$s12MovieAppHome0aC14ViewControllerC20initialConfigurationyyF",
+            "moduleName": "MovieAppHome",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testingString",
+            "printedName": "testingString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MovieAppHome0aC14ViewControllerC13testingStringyyF",
+            "mangledName": "$s12MovieAppHome0aC14ViewControllerC13testingStringyyF",
+            "moduleName": "MovieAppHome",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MovieAppHome@objc(cs)MovieHomeViewController",
+        "mangledName": "$s12MovieAppHome0aC14ViewControllerC",
+        "moduleName": "MovieAppHome",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/faruuq\/Documents\/Sandbox\/Movie-app\/mine\/MovieAppHome\/MovieAppHome\/MovieAppHome.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 16,
+      "value": "\"view is loaded\""
+    },
+    {
+      "filePath": "\/Users\/faruuq\/Documents\/Sandbox\/Movie-app\/mine\/MovieAppHome\/MovieAppHome\/MovieAppHome.swift",
+      "kind": "StringLiteral",
+      "offset": 611,
+      "length": 27,
+      "value": "\"This is the output string\""
+    },
+    {
+      "filePath": "\/Users\/faruuq\/Documents\/Sandbox\/Movie-app\/mine\/MovieAppHome\/MovieAppHome\/MovieAppHome.swift",
+      "kind": "BooleanLiteral",
+      "offset": 823,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/faruuq\/Documents\/Sandbox\/Movie-app\/mine\/MovieAppHome\/MovieAppHome\/MovieAppHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1119,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/faruuq\/Documents\/Sandbox\/Movie-app\/mine\/MovieAppHome\/MovieAppHome\/MovieAppHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1187,
+      "length": 3,
+      "value": "200"
+    }
+  ]
+}

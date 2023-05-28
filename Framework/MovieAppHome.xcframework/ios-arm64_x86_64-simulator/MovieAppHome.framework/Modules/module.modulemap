@@ -1,0 +1,11 @@
+framework module MovieAppHome {
+  umbrella header "MovieAppHome.h"
+
+  export *
+  module * { export * }
+}
+
+module MovieAppHome.Swift {
+  header "MovieAppHome-Swift.h"
+  requires objc
+}
