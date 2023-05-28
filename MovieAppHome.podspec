@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-  spec.ios.vendored_frameworks = 'Framework/MovieAppHome.framework'
+  spec.ios.vendored_frameworks = 'Framework/MovieAppHome.xcframework'
   spec.dependency "Moya"
 
 end
